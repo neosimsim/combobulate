@@ -444,7 +444,8 @@ be any number of nodes.")
     (json . combobulate-json-setup)
     (css . combobulate-css-setup)
     (yaml . combobulate-yaml-setup)
-    (html . combobulate-html-setup))
+    (html . combobulate-html-setup)
+    (rust . combobulate-rust-setup))
   "Alist of setup functions to call when \\[combobulate-mode] is enabled.
 
 Because tree-sitter-enabled modes are different from the ordinary
